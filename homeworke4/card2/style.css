@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener{
+    height: 500px;
+    width: 800px;
+    background: silver;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box_A{
+    width: 100%;
+    height: 30%;
+    background: gold;
+}
+
+.box_B{
+    width: 60%;
+    height: 70%;
+    background: #c03b23;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_B_1{
+    height: 40%;
+    width: 100%;
+    background: seagreen;
+}
+
+.box_B_2{
+    height: 60%;
+    width: 100%;
+    background: #656563;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blok_iner{
+    width: 30%;
+    height: 75%;
+    background: aqua;
+}
+
+.box_C{
+    width: 40%;
+    height: 70%;
+    background: rgba(109, 118, 239, 0.88);
+}
